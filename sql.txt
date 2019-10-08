@@ -1,0 +1,21 @@
+select ->  selecciona campos 
+from -> tabla
+where -> condiciones o limitantes
+order by -> campos
+* -> selecciona todos los campos select * from Persona
+%Perez% -> que traiga 1, ninguno o mas 
+ -> Perez Coco -> sin el % % solo tomo Perez
+-> %% Con esto agarra todos los apellidos
+
+si no hay parentesis en la condicion Prioridad evalua esto :
+1) Comparadores aritmeticos
+concatenacion
+de comparacion ><=
+is (not) null like in (not)
+between
+not
+and
+or
+
+si hay parentesis evalua primero eso
+distinct elimina los repetidos
